@@ -1,27 +1,111 @@
-# Next.js + Tailwind CSS Example
+# AI Image Generator Powered by DALL·E 2, ChatGPT & Microsoft Azure
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Welcome to the AI Image Generator project! This web application combines the power of OpenAI's DALL·E 2, ChatGPT, and Microsoft Azure to generate unique and creative images based on text descriptions. With Next.js, Tailwind CSS, and TypeScript, this project provides a user-friendly and responsive interface for generating AI-driven images.
 
-## Deploy your own
+![AI Image Generator](screenshot.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Table of Contents
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- [Demo](#demo)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## How to use
+## Demo
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+You can try the AI Image Generator in action by visiting our [live demo](https://example.com).
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Features
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+- **AI Image Generation**: Generate images based on text descriptions using DALL·E 2, ChatGPT, and Microsoft Azure's AI capabilities.
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+- **User-Friendly Interface**: The web application provides an intuitive and responsive interface for easy image generation.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- **Customization**: Tailwind CSS allows for easy customization of the application's style and layout.
+
+- **TypeScript Support**: The project is written in TypeScript, providing type safety and improved code quality.
+
+## Getting Started
+
+To run this project on your local machine, follow these steps:
+
+### Prerequisites
+
+Before you begin, ensure you have the following dependencies installed on your system:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/TahaHammouz/ai-image-generator.git
+   ```
+
+2. Change to the project directory:
+
+   ```bash
+   cd ai-image-generator
+   ```
+
+3. Install the project dependencies using npm or yarn:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+4. Configure the project as described in the [Configuration](#configuration) section.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+6. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the AI Image Generator.
+
+## Configuration
+
+You'll need to configure the application to access the necessary AI services. Here's how to do it:
+
+1. Create a `.env.local` file in the project's root directory.
+
+2. Add the following configuration variables to your `.env.local` file:
+
+   ```
+   NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key
+   NEXT_PUBLIC_AZURE_COGNITIVE_KEY=your_azure_cognitive_key
+   ```
+
+   Replace `your_openai_api_key` with your OpenAI API key and `your_azure_cognitive_key` with your Microsoft Azure Cognitive Services API key.
+
+## Usage
+
+1. Visit the web application in your browser.
+
+2. Enter a text description of the image you want to generate.
+
+3. Click the "Generate Image" button to trigger the AI image generation process.
+
+4. The generated image will be displayed on the screen.
+
+5. You can save or share the generated image as needed.
+
+## Contributing
+
+Contributions to this project are welcome! If you would like to contribute, please follow our [contribution guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
