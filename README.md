@@ -2,7 +2,8 @@
 
 Welcome to the AI Image Generator project! This web application combines the power of OpenAI's DALL·E 2, ChatGPT, and Microsoft Azure to generate unique and creative images based on text descriptions. With Next.js, Tailwind CSS, and TypeScript, this project provides a user-friendly and responsive interface for generating AI-driven images.
 
-![AI Image Generator](screenshot.png)
+<img width="1680" alt="Screenshot 2023-10-21 at 2 32 42 PM" src="https://github.com/TahaHammouz/AI-Image-Generator/assets/53263252/83a6a5db-6c5c-4388-8a3d-b81ebb18ee77">
+
 
 ## Table of Contents
 
@@ -18,7 +19,10 @@ Welcome to the AI Image Generator project! This web application combines the pow
 
 ## Demo
 
-You can try the AI Image Generator in action by visiting our [live demo](https://example.com).
+
+https://github.com/TahaHammouz/AI-Image-Generator/assets/53263252/3322adfb-3179-4a25-8ecc-5ac1b34e0aae
+
+
 
 ## Features
 
